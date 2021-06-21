@@ -317,8 +317,6 @@ input[type=button] {
   
 }
 
-
-
 /* Features */
 
 .features {
@@ -332,7 +330,7 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px;
-  width: 72%;
+  width: 72%; 															/*didnt have this on the original, why*/
 }
 .features article {
   width: 90%;
@@ -340,7 +338,7 @@ input[type=button] {
 }
 
 .features .features-items {
-  background: url("../img/omar-lopez-296944-unsplash.jpg");
+ /* background: url("../img/omar-lopez-296944-unsplash.jpg"); I put this in the wrong section*/
   align-items: center;	
   display: flex;
   justify-content: center;
@@ -377,7 +375,7 @@ input[type=button] {
   width: 70%;
 }
 
- .description h3 {
+ .reviews h3 {
   width: 178%;
   margin: 20px 0;
 }
@@ -387,7 +385,7 @@ input[type=button] {
 }
 
 /* ==========================================================================
-   About Page (CELLULAR SIZE)
+   About Page
    ========================================================================== */
 
 .mission {
@@ -405,9 +403,9 @@ input[type=button] {
 	width: 78%;
 }
 
-.map figure iframe{
-	width: 100%;
-}
+							.map figure iframe{
+								width: 100%;
+							}
 
 .contact-section {
   background-color: #2a423a;
@@ -426,7 +424,7 @@ input[type=button] {
 }
 
 /* ==========================================================================
-   FAQ Page (CELLULAR SIZE)
+   FAQ Page
    ========================================================================== */
 
 .faq {
@@ -459,14 +457,10 @@ input[type=button] {
   line-height: 1.333;
 }
 
-<<<<<<< HEAD
-=======
-
 
 /*******END OF CELLULAR SIZE FOR HOME, FAQ, & ABOUT PAGES**********/
 
 
->>>>>>> 82cf72daa6b4bac7470b2b8f64201e404108cb1d
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -648,9 +642,9 @@ input[type=button] {
     width: 62%;
   }
 
-  .features i {
-    margin-bottom: 30px;
-  }
+						  .features i {
+							margin-bottom: 30px;
+						  }
 
   /* Reviews */
   .reviews article {
@@ -701,10 +695,10 @@ input[type=button] {
       line-height: 1.285;
   }
 
-  footer .social-icons {
-    width: 12.5em;
-    justify-content: space-between;
-  }
+				  footer .social-icons {
+					width: 12.5em;
+					justify-content: space-between;
+				  }
   
   footer .copyright {
     width: 100%;
@@ -725,9 +719,9 @@ input[type=button] {
     width: 45%;
   }
 
-  .map figure {
-    padding-bottom: 45.5%;
-  }
+					  .map figure {
+						padding-bottom: 45.5%;
+					  }
 
   .contact-section .content-wrapper h2 {
     width: 80%;
@@ -823,6 +817,10 @@ input[type=button] {
   
   /* Reviews */
   
+					.reviews article div {
+					width: 42%;
+				  } /*is in the original but what is it for?*/
+	
   .reviews h2 {
     padding-bottom: 50px; 
   }
@@ -871,28 +869,6 @@ input[type=button] {
       font-size: 1.125em;
       line-height: 1;
   }
-<<<<<<< HEAD
-=======
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
->>>>>>> 82cf72daa6b4bac7470b2b8f64201e404108cb1d
 }
 
 /* ==========================================================================
