@@ -352,9 +352,12 @@ input[type=button] {
 }
 
 .features p {
-  font-size: 1.9em;
+  font-size: 1.4em;
   margin: 0;
-  text-align: center;	
+  text-align: center;
+	
+  word-wrap: break-word;
+  width: 95%;
 	
 }
 
@@ -624,28 +627,105 @@ input[type=button] {
     margin: 0;
   }
 
+	
+	
   /* Features */
 
-  .features h2 {
+
+.features h2 {
+  margin-bottom: 60px;
+  width: 72%; 															/*didnt have this on the original, why*/
+}
+.features article {
+  width: 90%;
+  margin: 30px 10px; /*It was 0 but I had to put it 20px in order for it to center*/
+}
+
+.features .features-items {
+  align-items: center;	
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.fontawesome-icon i {
+	font-size: 2.7em;
+	margin-bottom: 40px;
+	margin-top: 34px;
+}
+
+.features p {
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+	
+  word-wrap: break-word;
+  width: 95%;
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+ /* .features h2 {
     margin-bottom: 20px;
   }
+	.features /*.content-font*/{
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+justify-content: center;
+}*/
+/*
+.content-wrapper{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+justify-content: space-around;*/
 
-  .features article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    flex-basis: 50%;
-  }
-  
-  .features .features-item-description {
+	
+	
+	
+	
+	
+
+	 /*.features .content-wrapper/*article*/ /*{*/
+		/*display: flex;
+		 flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-flow: column wrap;*/
+		/*flex-basis: 20%;*/
+
+	 /* }*/
+		/*article i .features-item-description{
+		overflow-wrap: break-word;
+		width: 62%;
+		}
+  /*.features-item-description {
+	  
     width: 62%;
-  }
-
+  }*/
+	}
 						  .features i {
 							margin-bottom: 30px;
+							  
 						  }
+	.features p{
+		  font-size: 1.124em;
+		
+		
+							  overflow-wrap: break-word;
+							  width: 65%;
+	}
 
+	
   /* Reviews */
   .reviews article {
     display: flex;
@@ -719,9 +799,9 @@ input[type=button] {
     width: 45%;
   }
 
-					  .map figure {
-						padding-bottom: 45.5%;
-					  }
+					  /*.map figure {
+						padding-bottom: 45.5% do NOT put this b/c it caused a huge bottom white space once it got to the desktop size even thought this is on the tablet size.;
+					  }*/
 
   .contact-section .content-wrapper h2 {
     width: 80%;
@@ -815,6 +895,8 @@ input[type=button] {
     flex-basis: 33%;
   }
   
+
+	
   /* Reviews */
   
 					.reviews article div {
