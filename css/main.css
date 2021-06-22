@@ -253,7 +253,7 @@ footer .social-icons p {
   justify-content: center;	
   width: 40px;
   height: 40px;	
-					margin-right: 2em;
+					/*margin-right: 2em;*/
 }
 
 footer .social-icons p i {
@@ -725,6 +725,7 @@ justify-content: space-around;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+	    width: 100%;
   }
 
   footer .contact {
@@ -738,12 +739,11 @@ justify-content: space-around;
 
   footer p {
       line-height: 1.285;
-  }
-
-				  footer .social-icons {
-					width: 12.5em;
-					justify-content: space-between;
-				  }
+  }	
+footer .social-icons {
+	width: 12.5em;
+	justify-content: space-between;
+ }
   
   footer .copyright {
     width: 100%;
@@ -785,6 +785,13 @@ justify-content: space-around;
   /* ==========================================================================
    FAQ Page
    ========================================================================== */
+	
+	.faq{
+		padding-top: 95px;
+		padding-bottom: 235px;
+		background-color: #527158;
+		/*I just added this to fill the white space that was under neath the footer*/
+	}	
 
   .faq .content-wrapper {
     justify-content: space-between;
