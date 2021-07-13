@@ -18,6 +18,8 @@ Since it isn't a real business, I had to use a random location to complete this 
 The faq page is in gibberish like the rest of the website, but the focus was being able to use flexbox layout. Overall, this Skillcrush project was a challenge
 but the final outcome only prepared me for more advance web responsive websites.
 
+**** The cool effect is the green hover on the navigattion bar*****
+
 #### Software used:
 Adobe Dreamweaver (text-editor)
 
