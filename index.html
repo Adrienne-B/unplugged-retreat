@@ -15,8 +15,10 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="./hamburger/css/main.css"> 
+  <!-- css stylesheets -->
 
   <meta name="theme-color" content="#fafafa">
 	
@@ -24,35 +26,56 @@
 	<!-- FontAwesome CDN version 5.5 -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">	
 	
- <title>Unplugged-Retreat | Home</title>
+ <title>Deanna's Wine Gallery | Home</title>
 
-	
-<!--<script src="js/script.js" defer>
-</script>		
-
-		<script> alert("I am an alert box"); </script>-->
 </head>
-
-
 <body>
 	<header>
 		<div class="content-wrapper">
-			<figure>
-				<a href="#"><img src="img/unpluggedlogo.png"  alt="logo"/></a>
-			</figure>
-			
-			<div class="header-divider"></div>
-			
+	
 			<nav>
 				<ul>
-					<li><a href="about/index.html.html" target="_blank">ABOUT</a></li>
+					<li><a href="#" target="_blank">Home</a></li>
 					
-					<li><a href="faq/index.html.html" target="_blank">FAQ</a></li>
+					<li><a href="about/index.html" target="_blank">About</a></li>
+					
+					<li><a href="./employment/index.html" target="_blank">Gifts</a></li>
+				
+					<li><a href="./faq/index.html" target="_blank">Contact Us</a></li>
+					
+					<li id="nav_button"><i class="fa fa-fw fa-user"></i><a href="contact/index.html" target="_blank">Sign In</a></li>
+					
 				</ul>
 			</nav>
-	  </div>
+			
+	  <div class = "logo"><a href="#"><img src="./img/Logo.png"></a></div> 
+			
+		<div id="menu-bar">                                                 
+			<div id="menu" onclick="onClickMenu()">
+				<div id="bar1" class="bar"></div>
+				<div id="bar2" class="bar"></div>
+				<div id="bar3" class="bar"></div>
+			</div>
+	  <!-- <div class = "logo_flfa"><a href="#"><img src="./img/logo_flfa.png"></a></div> -->
+		  <ul class="nav" id="nav">
+		   
+			<li><a href="#">Home</a></li>
+			  
+			<li><a href="./about/index.html" target="_blank">About</a></li>
+			  
+			<li><a href="./employment/index.html" target="_blank">Specials</a></li>
+			  
+			<li><a href="./faq/index.html" target="_blank">Reviews</a></li>
+			  
+			<li><a href="./contact/index.html" target="_blank">Contact Us</a></li>
+
+			<li><a href="./contact/index.html" target="_blank">Sign In</a></li>
+		  </ul>
+		</div>	
+			<div class="menu-bg" id="menu-bg"></div>
+		</div>	
 	</header>
-	
+
 	
 		<!---------------------------- NAVIGATION BAR SECTION/Ends Here----------------------------->
 	
@@ -60,71 +83,138 @@
 	<main>
 		<section class="hero-area">
 			<div class="content-wrapper">
-				<h1>Retreat from the desk, return refreshed.</h1>
+				<div class="overlay">
+				<!-- <h1>Retreat from the desk, return refreshed.</h1> -->
+				<img src="./img/business_cover_logo.png" class="business_logo">
+
+				<div class="subtitle">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
+			</div>
+			</div>
 			</div>
 		</section>
 		
 	
 	<!---------------------------- HERO (INTRO HOME) SECTION/Ends Here ----------------------------->
 		
-		
-		<aside>
+
+		 
+		<section class="info">
 			<div class="content-wrapper">
-				<div class="form-description">
-					<h3>What to join the next retreat</h3>
-					<p>Find out when we are holding our next retreat and how your comapany or team can sign up!</p>
-				</div>
+				<!-- <h2>Be a better team in 5 days, like this one.</h2> -->
 			
-				
-				<div class="form">
-					<h3>Find out more</h3>
-		<!--When I put a closed dive tab here...it caused the placeholders to be long and go under the what to join the next retreat section. But when took it it off, it was how it was suppose to look from the photo guide.-->
-				
-					<input type="text" name="name" value="email address">
-					<input type="button" value="Download Itinerary">
-				</div>	
-			</aside>
-		
-		
+			<article>
+				<figure>
+			    <img src="img/wine_collection.png"  alt="wine_collection" class="wine_collection"/>
+				</figure>
+				<div>
+					
+				<div class="info_desc">	
+					<h3>Bernhard fashion</h3>
+					<p >Lorem ipsum dolor sit amet, consecuteter adipiscing elit, sed diam nomummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+						<br><br>ing elit, sed do eiusmod tempor incididunt ut 
+						Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+					</div>
+				</div>
+			</article>
+		</div>	
+	</section>
 		
 	
 		<!---------------------------- ASIDE SECTION (Type bar and button)/Ends Here----------------------------->
 	
-		
+		<section class="white_wine_banner">
+			<div class="overlay_ww">
+				<h2>White Wine</h2>
+			</div>
+		</section>
+				
 
 	<section class="features">
 		<div class="content-wrapper">
-			<h2>Have the work week you always dreamed of - without the bad wifi. </h2>
-	
 			  	 <article>
 					<p class="fontawesome-icon">
-						<i class="fas fa-campground"></i>
+						<!-- <i class="fas fa-campground"></i> -->
+						<div class="ww1">
+							<img src="./img/ww1.png" class="ww1">
+							<h4>Liberty School</h4>
+						</div>
+					</p>	
+
+					<p class="features-item-description"> Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+				</article>
+<br>
+<br>
+				<article>
+					<p class="fontawesome-icon">
+						<!-- <i class="fas fa-bed"></i> -->
+						<div class="ww2">
+							<img src="./img/ww2.png" class="ww2">
+							<h4>La Crema</h4>
+							</div>
+					</p>	
+
+					<p class="features-item-description"> 12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+				</article>
+
+<br>
+<br>
+
+				<article>
+					<p class="fontawesome-icon">
+						<!-- <i class="fas fa-campground"></i> -->
+						<div class="ww3">
+							<img src="./img/ww3.png" class="ww3">
+							<h4>Skyfall</h4>
+						</div>
 					</p>	
 
 					<p class="features-item-description"> Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
 				</article>
 
+<br>
+<br>
+
+
 				<article>
 					<p class="fontawesome-icon">
-						<i class="fas fa-bed"></i>
+						<!-- <i class="fas fa-bed"></i> -->
+						<div class="ww4">
+							<img src="./img/ww4.png" class="ww4">
+							<h4>Michelini</h4>
+							</div>
 					</p>	
 
 					<p class="features-item-description"> 12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
 				</article>
 			
+			
 
 				<article>
 					<p class="fontawesome-icon">
-						<i class="fas fa-utensils"></i>
+						<!-- <i class="fas fa-utensils"></i> -->
+						<div class="ww5">
+							<img src="./img/ww5.png" class="ww5">
+
+							<h4>Sainte Roseline</h4>
+						</div>
 					</p>	
 
 					<p class="features-item-description"> Private chef team providing on demand meals - just like your team kitchen.</p>
 				</article>
-			
+<br>
+<br>
+<br>
+<br>					
 			
 				<article>
 					<p class="fontawesome-icon">
-						<i class="fas fa-shoe-prints"></i>
+						<!-- <i class="fas fa-shoe-prints"></i> -->
+						
+						<div class="ww6">
+							<img src="./img/ww6.png" class="ww6" >
+							<h4>Lugana</h4>
+						</div>
 					</p>	
 					
 					<p class="features-item-description"> 5 outdoor obstacle courses, including private beach 1/2 mile from bungalow</p>
@@ -133,7 +223,11 @@
 			
 				<article>
 					<p class="fontawesome-icon">
-						<i class="far fa-smile"></i>
+						<!-- <i class="far fa-smile"></i> -->
+						<div class="ww7">
+							<img src="./img/ww7.png" class="ww7">
+							<h4>Quinta Do Vale</h4>	
+						</div>
 					</p>	
 					
 					<p class="features-item-description"> Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
@@ -142,31 +236,207 @@
 
 				<article>
 					<p class="fontawesome-icon">
-						<i class="fas fa-wifi"></i>
+						<!-- <i class="fas fa-wifi"></i> -->
+						
+						<div class="ww8">
+							<img src="./img/ww8.png" class="ww8">
+							<h4>Levantine Hill</h4>	
+						</div>
+	
 					</p>
 					
 					<p class="features-item-description"> ;Dedicated computer room for times that you must wifi.</p>
 				</article>	
-			</div>
+			<!-- </div> -->
 		</section>
 		
+
+
+
+
+		<section class="rose_wine_banner">
+			<div class="overlay_rr">
+				<!-- <img src="./img/rose_wine_banner.png"> -->
+				<h2>Rose Wine</h2>
+			</div>
+		</section>
+
+
+
+		<section class="features">
+			<div class="content-wrapper">
+		<article>
+			<p class="fontawesome-icon">
+				<!-- <i class="fas fa-utensils"></i> -->
 		
-		<!---------------------------- FEATURES SECTION (Icons w/ discription)/Ends Here----------------------------->
+
+
+
+
+				<div class="rw1">
+					<img src="./img/rw1.png" class="rw1">
+
+					<h4>Sainte Roseline</h4>
+				</div>
+			</p>	
+
+			<p id="Sainte Roseline" class="features-item-description"> Private chef team providing on demand meals - just like your team kitchen.</p>
+		</article>
+	
+	
+		<article>
+			<p class="fontawesome-icon">
+				<!-- <i class="fas fa-shoe-prints"></i> -->
+				
+				<div class="rw2">
+					<img src="./img/rw2.png" class="rw2">
+					<h4>Lugana</h4>
+				</div>
+			</p>	
+			
+			<p class="features-item-description"> 5 outdoor obstacle courses, including private beach 1/2 mile from bungalow</p>
+		</article>
+
+	
+		<article>
+			<p class="fontawesome-icon">
+				<!-- <i class="far fa-smile"></i> -->
+				<div class="rw3">
+					<img src="./img/rw3.png" class="rw3">
+					<h4>Quinta Do Vale</h4>	
+				</div>
+			</p>	
+			
+			<p class="features-item-description"> Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+		</article>
+
+
+
+
+		<article>
+			<p class="fontawesome-icon">
+				<!-- <i class="fas fa-wifi"></i> -->
+				
+				<div class="ww8">
+					<img src="./img/rw4.png" class="rw4">
+					<h4>Levantine Hill</h4>	
+				</div>
+
+			</p>
+			
+			<p class="features-item-description"> ;Dedicated computer room for times that you must wifi.</p>
+		</article>	
+	<!-- </div> -->
+	</section>
 		
+
+	
+		<section class="red_wine_banner">
+			<div class="overlay_rd">
+				<h2>Red Wine</h2>
+			</div>
+		</section>
+
+
+
+		<section class="features">
+			<div class="content-wrapper">
 		
+		<article>
+			<p class="fontawesome-icon">
+				<!-- <i class="fas fa-utensils"></i> -->
+				<div class="rdw1">
+					<img src="./img/rdw1.png" class="rdw1">
+
+					<h4>Sainte Roseline</h4>
+				</div>
+			</p>	
+
+			<div class="sainte_description">
+			<p class="features-item-description"> Private chef team providing on demand meals - just like your team kitchen.</p>
+			</div>
+		</article>
+	
+	
+		<article>
+			<p class="fontawesome-icon">
+				<!-- <i class="fas fa-shoe-prints"></i> -->
+
+				<article>
+					<p class="fontawesome-icon">
+						<!-- <i class="fas fa-campground"></i> -->
+						<div class="rdw2">
+							<img src="./img/rdw2.png" class="rwd2">
+							<h4>Lugana</h4>
+						</div>
+					</p>	
+
+					<div class="lugana_description">
+					<p class="features-item-description"> Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+					</div>
+				</article>
+<br>
+<br>
+
+<article>
+	<p class="fontawesome-icon">
+		<!-- <i class="fas fa-campground"></i> -->
+		<div class="rdw3">
+			<img src="./img/rdw3.png" class="rwd3">
+					<h4>Quinta Do Vale</h4>	
+		</div>
+	</p>	
+
+	<div class="quinta_description">
+			<p class="features-item-description"> Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+			</div>
+		</article>
+
+
+
+		<article>
+			<p class="fontawesome-icon">
+				<!-- <i class="fas fa-shoe-prints"></i> -->
+
+				<article>
+					<p class="fontawesome-icon">
+						<!-- <i class="fas fa-campground"></i> -->
+						<div class="rdw4">
+							<img src="./img/rdw4.png" class="rdw4">
+					<h4>Levantine Hill</h4>	
+						</div>
+					</p>	
+
+					<div class="levantine_description">
+					<p class="features-item-description"> Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+					</div>
+				</article>
+	</div>
+</section>
+		
+
+
+
+
+
+
+
+
+				
+
 		<section class="reviews">
 			<div class="content-wrapper">
-				<h2>Be a better team in 5 days, like this one.</h2>
+				<!-- <h2>Be a better team in 5 days, like this one.</h2> -->
 			
 			<article>
 				<figure>
-			    <img src="img/omar-lopez-296944-unsplash.jpg"  alt="gathering"/>
+			    <img src="img/picture_card.jpg"  alt="picture_card" class="picture"/>
 				</figure>
 				<div>
 					
 				<div class="description">	
-					<h3>LaCrue Bottling Co. October 2018</h3>
-						<p >Lorem ipsum dolor sit amet, cconsectetur adipisc-<br>ing elit, sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua. Ut enim ad <br> minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in reprehendert in <br> voluptate veit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<h3>AMFEIO</h3>
+						<p >Lorem ipsum dolor sit amet, cconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendert in  voluptate veit esse cillum dolore eu fugiat nulla pariatur.</p>
 					</div>
 				</div>
 			</article>
@@ -181,10 +451,31 @@
 	<footer>
 		<div class="content-wrapper">
 			<div class="footer-content">
+
+		
+
+				<div class="Address">
+					<h4>Address</h4>
+					<address>
+						<p>Deanna's Wine Gallery <br> 2448 Oakland Drive <br> Building 17 <br> Newark, NJ 0710S
+						</p>
+					</address>
+
+				
+				<div class="Address">
+					<h4>More Information</h4>
+						<address>
+							<p>Terms and Condition <br> Privacy Policy <br> Cookie Policy<br> FAQ
+							</p>
+						</address>
+
+
+
+
 				<div class="contact">
 					<h4>Contact</h4>
 					<address>
-						<p>555-555-5555 <br> hello@unpugged.com
+						<p>973-121-5278 <br> www.dwg@yahoo.com
 						</p>
 					</address>
 	<!--It is good to have address tags around contact list so that the browser knows that it contains contact information-->
